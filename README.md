@@ -16,9 +16,13 @@ Once you launch it, you can check that it's working correctly here: https://hard
 > CONTROLS
 
 By default:
+
 ESC ends the script
+
 'Q' moves the left stick forward 60%
+
 'E' moves the left stick forward 85%
+
 
 All keybinds and percentages can be customized to whatever you like. At the start of the script there's a small labeled section where you can change everything to suit your needs. i decided to set these two values to 60% and 85% because they allow you to perform Flap Boost and Infinite Boost, but if you find values that work better for you feel free to change them to whatever you want.
 
