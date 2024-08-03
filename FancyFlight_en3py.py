@@ -1,3 +1,5 @@
+# FANCY FLYING ENABLER V1 - By Tofu
+
 import vgamepad as vg
 import keyboard
 
