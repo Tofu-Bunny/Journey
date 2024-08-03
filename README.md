@@ -28,6 +28,8 @@ ESC ends the script
 
 All keybinds and percentages can be customized to whatever you like. At the start of the script there's a small labeled section where you can change everything to suit your needs. i decided to set these two values to 60% and 85% because they allow you to perform Flap Boost and Infinite Boost, but if you find values that work better for you feel free to change them to whatever you want.
 
+Small special thank you to Arckoor for suggesting and helping with a couple things <3
+
 Aaand that's pretty much it! Once again please use this tool responsibly and have fun.
 See you in the sky.
 
