@@ -14,6 +14,7 @@ To activate the script, simply open the .py file or run it through your Python s
 Once you launch it, you can check that it's working correctly here: https://hardwaretester.com/gamepad . Simply press any of the binds and look at the stick move.
 
 > CONTROLS
+
 By default:
 ESC ends the script
 'Q' moves the left stick forward 60%
