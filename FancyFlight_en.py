@@ -2,6 +2,7 @@
 
 import vgamepad as vg
 import keyboard
+import time
 
 #///////////////////////////////|
 # Set keybinds here:
@@ -47,6 +48,7 @@ while True:
         move_left_stick_up_PER2()
     else:
         reset_left_stick()
+    time.sleep(0.05)
     
 # Ouch ouchie kill it
     if keyboard.is_pressed(QUIT):
