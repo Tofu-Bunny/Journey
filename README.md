@@ -58,7 +58,7 @@ By default:
 - 'Q' moves the left stick forward 60%
 - 'E' moves the left stick forward 85%
 
-Like previously mentioned, all keybinds and percentages can be customized to whatever you like. i decided to set the two values to 60% and 85% because they allow you to perform Flap Boost and Infinite Boost, and set the keybinds to Q and E because it makes them super easy to press while using WASD for movement.
+Like previously mentioned, all keybinds and percentages can be customized to whatever you like. i decided to set the two values to 60% and 85% because they allow you to perform Flap Boost and Infinite Boost, and set the keybinds to Q and E because it makes them super easy to press while using WASD for movement, but if you use a different control scheme or prefer different % values feel free to change them!
 
 #  
 
