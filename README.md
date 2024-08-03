@@ -12,7 +12,7 @@ vgamepad: https://pypi.org/project/vgamepad/
 
 keyboard: https://pypi.org/project/keyboard/
 
-To activate the script, simply open the .py file or run it through your Python shell. All the script does is emulate a virtual gamepad and send left-stick inputs to your computer, so the game does not need to be running beforehand nor does the script directly interact with it in any way. Additionally, the game recognize both gamepad and keyboard inputs at the same time and the script doesn't overwrite anything, so all your normal keyboard inputs will be completely unchanged.
+To activate the script, simply open the .py file or run it through your Python shell. All the script does is emulate a virtual gamepad and send left-stick inputs to your computer, so the game does not need to be running beforehand nor does the script directly interact with it in any way. Additionally, the game recognizes both gamepad and keyboard inputs at the same time and the script doesn't overwrite anything, so all your normal keyboard inputs will be completely unchanged.
 Once you launch it, you can check that it's working correctly here: https://hardwaretester.com/gamepad . Simply press any of the binds and look at the stick move.
 
 > CONTROLS
