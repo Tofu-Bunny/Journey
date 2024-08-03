@@ -45,7 +45,7 @@ If you want to customize the controls and strength percentages, look near the to
 - `BIND2`: Keybind #2
 - `QUIT`: The quit button
 - `PER1`: How much Keybind 1 pushes forward (in %, accepts any value from 0 to 100)
-- `PER2`: How much Keybind 1 pushes forward (in %, accepts any value from 0 to 100)
+- `PER2`: How much Keybind 2 pushes forward (in %, accepts any value from 0 to 100)
 
 All these can be changed to whatever suits your needs. Once you're happy with them, click `File` > `Save` and you're ready to run.
 
