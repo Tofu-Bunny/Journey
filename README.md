@@ -7,7 +7,9 @@ i made this tool purely for fun, and to allow keyboard-only players (like me) to
 > PREREQUISITES AND USAGE
 
 The script runs in Python 3. It also utilizes the 'vgamepad' and 'keyboard' modules which can be found here:
+
 vgamepad: https://pypi.org/project/vgamepad/
+
 keyboard: https://pypi.org/project/keyboard/
 
 To activate the script, simply open the .py file or run it through your Python shell. All the script does is emulate a virtual gamepad and send left-stick inputs to your computer, so the game does not need to be running beforehand nor does the script directly interact with it in any way. Additionally, the game recognize both gamepad and keyboard inputs at the same time and the script doesn't overwrite anything, so all your normal keyboard inputs will be completely unchanged.
