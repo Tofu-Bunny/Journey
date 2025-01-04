@@ -9,7 +9,7 @@ enabled = False
 # Set keybinds here:
 BIND1 = 'q'
 BIND2 = 'e'
-TOGGLE = 'f'
+TOGGLE = 't'
 QUIT = 'F9'
 
 # Set steer values (in %) here:
