@@ -1,18 +1,20 @@
-# FANCY FLYING ENABLER V1 - By Tofu
+# FANCY FLYING ENABLER V2 - By Tofu
 
 import vgamepad as vg
 import keyboard
 import time
+enabled = False
 
 #///////////////////////////////|
 # Set keybinds here:
 BIND1 = 'q'
 BIND2 = 'e'
-QUIT = 'esc'
+TOGGLE = 'f'
+QUIT = 'F9'
 
 # Set steer values (in %) here:
-PER1 = 60
-PER2 = 85
+PER1 = 63
+PER2 = 70
 
 #///////////////////////////////|
 gamepad = vg.VX360Gamepad()
@@ -36,21 +38,41 @@ def reset_left_stick():
     gamepad.left_joystick(x_value=0, y_value=0)
     gamepad.update()
 
+print("  /)_/) ")
+print(" („•֊•„) <3")
+print("--U   U------------------------------")
 print("Press", BIND1, "to move forward "+ str(PER1)+ "%.(y="+ str(VALUE1)+")")
 print("Press", BIND2, "to move forward "+ str(PER2)+ "%.(y="+ str(VALUE2)+")")
-print("Press", QUIT, "if something breaks.")
+print("Press", TOGGLE, "to turn controls ON or OFF")
+print("Press", QUIT, "if something breaks")
+print(" ")
+print("Flight controls are OFF")
 
 # Detect key press
 while True:
-    if keyboard.is_pressed(BIND1):
-        move_left_stick_up_PER1()
-    elif keyboard.is_pressed(BIND2):
-        move_left_stick_up_PER2()
+    event = keyboard.read_event()
+
+    #Toggle button
+    if event.event_type == keyboard.KEY_DOWN:
+        if event.name == TOGGLE:
+            enabled = not enabled #Turns flag ON
+            print(f"Flight controls are {'ON -- Have a nice flight c:' if enabled else 'OFF'}")
+    if enabled:
+        if keyboard.is_pressed(BIND1):
+            move_left_stick_up_PER1()
+            
+        elif keyboard.is_pressed(BIND2):
+            move_left_stick_up_PER2()
+            
+        else:
+            reset_left_stick()
     else:
         reset_left_stick()
-    time.sleep(0.05)
+            
     
 # Ouch ouchie kill it
     if keyboard.is_pressed(QUIT):
         print("Bye bye :3")
+        time.sleep(1.0)
         break
+time.sleep(0.01)
