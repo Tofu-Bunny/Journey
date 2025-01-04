@@ -30,22 +30,30 @@ Additional information about these two modules can be found here:
 
 ### USING THE SCRIPT AND CUSTOMIZING KEYBINDS
 
+If you just want to RUN the script, you can simply double click on it. This window will appear:
+
+![script in Terminal](https://i.imgur.com/JcFEChj.png)
+
+And, you're good! The script is running and it's ready to be used. Pushing the `QUIT` button (`F9` by default) will end the script and close this window.
+
+If you want to customize keybinds:
+
 First off, `right-click` on the .py file > `Edit with IDLE` > `Edit with IDLE (your version)`. A new window will open up:
 
-![script](https://i.imgur.com/TvN0k03.png)
+![script](https://i.imgur.com/axMdMQB.png)
 
-If you just want to run it, simply press `F5` or click on `Run` > `Run Module`. A new window that looks like this will appear:
+If you want to run the script from here, simply press `F5` or click on `Run` > `Run Module`. A new window that looks like this will appear:
 
-![running script](https://i.imgur.com/5B0QZNj.png)
+![running script](https://i.imgur.com/UmboKeO.png)
 
-As a small note, remember that if you press `Esc` in-game to open the pause menu or go to select level that will obviously deactivate the script. i suggest activating it once you're all set up and ready to fly so you don't accidentally disable it while navigating through in-game menus (i've definitely done that way too many times lol).
 
 If you want to customize the controls and strength percentages, look near the top of the code in the first window and you will see 2 sections labled "Set keybinds here" and "Set steer values (in%) here". This is where you can change keybinds and strength values.
-- `BIND1`: Keybind #1
-- `BIND2`: Keybind #2
-- `QUIT`: The quit button
-- `PER1`: How much Keybind 1 pushes forward (in %, accepts any value from 0 to 100)
-- `PER2`: How much Keybind 2 pushes forward (in %, accepts any value from 0 to 100)
+- `BIND1`: Keybind #1   (default is Q)
+- `BIND2`: Keybind #2   (default is E)
+- `TOGGLE`: ON/OFF toggle key   (default is T)
+- `QUIT`: The quit button   (default is F9)
+- `PER1`: How much Keybind 1 pushes forward (in %, accepts any value from 0 to 100, default is 63)
+- `PER2`: How much Keybind 2 pushes forward (in %, accepts any value from 0 to 100, default is 70)
 
 All these can be changed to whatever suits your needs. Once you're happy with them, click `File` > `Save` and you're ready to run.
 
@@ -54,15 +62,16 @@ Once you launch the script, you can check that it's working correctly here: http
 ### CONTROLS
 
 By default:
-- ESC ends the script
-- 'Q' moves the left stick forward 60%
-- 'E' moves the left stick forward 85%
+- 'F9' ends the script
+- 'T' toggles controls ON and OFF
+- 'Q' moves the left stick forward 63% (soft touch for Flap Boosting, right before Slow Boost)
+- 'E' moves the left stick forward 70% (firmer touch for Slow Boosting)
 
-Like previously mentioned, all keybinds and percentages can be customized to whatever you like. i decided to set the two values to 60% and 85% because they allow you to perform Flap Boost and Infinite Boost, and set the keybinds to Q and E because it makes them super easy to press while using WASD for movement, but if you use a different control scheme or prefer different % values feel free to change them!
+Like previously mentioned, all keybinds and percentages can be customized to whatever you like. i decided to set the keybinds to Q and E because it makes them super easy to press while using WASD for movement, but if you use a different control scheme or prefer different % values feel free to change them to whatever suits you!
 
 #  
 
-An additional special thanks to Arckoor for suggesting and helping with a couple things <3
+An additional special thanks to Arckoor for suggesting and helping with a couple things, and to NathanJ for insight on pressure percentages <3
 
 Aaand that's pretty much it! Once again please use this tool responsibly and have fun.
 
